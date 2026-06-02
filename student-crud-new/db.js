@@ -9,10 +9,10 @@ const pool = mysql.createPool({
   user: 'avnadmin',            
 
   // 3. Mật khẩu: Bạn quay lại trang Aiven, bấm vào hình CON MẮT chỗ chữ Password để hiện ra chuỗi mật khẩu rồi copy dán vào đây thay cho chữ 'MẬT_KHẨU_CỦA_BẠN' nhé!
-  password: 'process.env.DB_PASSWORD', 
+  password: 'AVNS_Dm49i2X23duMBrqtfAE', 
 
   // 4. Database Name trên Cloud của bạn đang hiển thị mặc định
-  database: 'defaultdb',  
+  database: 'STUDENTSREG',  
 
   // 5. Port số từ trang quản trị Aiven
   port: 27665, 
